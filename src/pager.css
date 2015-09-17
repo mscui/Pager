@@ -1,0 +1,100 @@
+#pager {
+    clear: both;
+    color: #999;
+    padding: 5px 0;
+    font-size: 13px;
+}
+#pager a {
+    float: left;
+    border: 1px solid #ccc;
+    display: inline;
+    padding: 3px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #fff;
+    text-decoration: none;
+    color: #9A8CE7;
+}
+
+#pager .disabled {
+    float: left;
+    display: inline;
+    padding: 3px 10px;
+    margin-right: 5px;
+    border: 1px solid #DFDFDF;
+    background-color: #FFF;
+    color: #DFDFDF;
+}
+#pager .curr {
+    float: left;
+    border: 1px solid #31ACE2;
+    display: inline;
+    padding: 3px 10px;
+    margin-right: 5px;
+    background: #F0FDFF;
+    color: #31ACE2;
+}
+#pager a:hover {
+    border: 1px solid #31ACE2;
+    background-color: #31ACE2;
+    color: #fff;
+}
+#pager .normalsize {
+}
+#pager-gopage-wrap {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+#pager-btn-go  {
+    width: 44px;
+    height: 18px;
+    border: 0;
+    overflow: hidden;
+    line-height: 140%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: #9A8CE7;
+    color: #FFF;
+    position: absolute;
+    left: 56px;
+    top: -2px;
+}
+#pager-btn-go-input {
+    width: 36px;
+    height: 14px;
+    color: #999;
+    text-align: center;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #DFDFDF;
+    position: relative;
+    left: 0;
+    top: 0;
+    outline: none;
+}
+
+#pager-btn-go-input.focus {
+    border-color: #9A8CE7;
+}
+
+#pager .pageBtnWrap {
+    float: left;
+}
+#pager .infoTextAndGoPageBtnWrap {
+    float: right;
+}
+#pager .spanDot {
+    float: left;
+    margin-right: 5px;
+}
+
+#pager .currPageNum {
+    color: #FC72B4;
+}
+
+#pager .infoTextAndGoPageBtnWrap {
+    padding-top: 5px;
+}
